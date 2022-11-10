@@ -33,7 +33,7 @@ void selection_sort(int *array, size_t size)
 		{
 			if (array[i] > array[j])
 			{
-				swap(&array[i], &array[j]);
+				swap_ints(&array[i], &array[j]);
 				print_array(array, size);
 			}
 		}
